@@ -1,0 +1,26 @@
+{
+  "name": "r2ro_me",
+  "version": "1.0.0",
+  "description": "node.js express",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "node app/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r2roluna/r2ro.git"
+  },
+  "keywords": [
+    "node.js",
+    "express"
+  ],
+  "author": "arturoluna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r2roluna/r2ro/issues"
+  },
+  "homepage": "https://github.com/r2roluna/r2ro#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}

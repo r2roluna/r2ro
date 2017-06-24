@@ -1,5 +1,5 @@
 var express =  require('express');
-// var reload = require('reload');
+var reload = require('reload');
 var app = express();
 var dataFile = require('./data/data.json');
 
@@ -19,4 +19,4 @@ var server = app.listen(app.get('port'), function() {
 });
 
 console.log('app.js loaded');
-// reload(server, app);
+reload(server, app);

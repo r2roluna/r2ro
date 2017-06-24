@@ -4,7 +4,7 @@
   "description": "node.js express",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/r2roluna/r2ro#readme",
   "dependencies": {
+    "ejs": "^2.4.2",
     "express": "^4.15.3",
-    "reload": "*"
+    "reload": "^1.1.6"
   }
 }

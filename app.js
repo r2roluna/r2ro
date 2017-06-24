@@ -5,6 +5,10 @@ var dataFile = require('./data/data.json');
 
 app.set('port', process.env.PORT || 8000 );
 app.set('appData', dataFile);
+app.set('view engine', 'ejs');
+app.set('views', 'views');
+
+app.locals.siteTitle = 'Arturo Luna';
 
 app.use(express.static('public'));
 app.use(require('./routes/index'));

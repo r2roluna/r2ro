@@ -4,7 +4,7 @@
   "description": "node.js express",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon -e css,ejs,js,json --watch r2ro"
+    "start": "nodemon"
   },
   "repository": {
     "type": "git",

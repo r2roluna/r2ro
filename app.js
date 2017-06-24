@@ -3,7 +3,7 @@ var reload = require('reload');
 var app = express();
 var dataFile = require('./data/data.json');
 
-app.set('port', process.env.PORT || 8000 );
+app.set('port', process.env.PORT || 3000 );
 app.set('appData', dataFile);
 app.set('view engine', 'ejs');
 app.set('views', 'views');
@@ -19,4 +19,4 @@ var server = app.listen(app.get('port'), function() {
 });
 
 console.log('app.js loaded');
-reload(server, app);
+// reload(server, app);

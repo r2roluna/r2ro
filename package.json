@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/r2roluna/r2ro#readme",
   "dependencies": {
-    "ejs": "^2.4.2",
+    "ejs": "^2.5.6",
     "express": "^4.15.3",
     "reload": "^1.1.6"
   },
